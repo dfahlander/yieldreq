@@ -10,11 +10,13 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
     "karma-mocha": "^1.0.1",
+    "karma-mocha-reporter": "^2.0.3",
     "mocha": "^2.5.3"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "node_modules/.bin/karma start test/karma.conf.js --single-run"
   },
   "repository": {
     "type": "git",

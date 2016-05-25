@@ -1,4 +1,4 @@
-
+expect = chai.expect;
 
 describe('open-database', function() {
     it('should open a database', function(){
