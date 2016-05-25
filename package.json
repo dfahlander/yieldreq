@@ -1,0 +1,36 @@
+{
+  "name": "yieldreq",
+  "version": "0.0.1",
+  "description": "await raw IndexedDB requests with generators and yield",
+  "main": "yieldreq.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "karma": "^0.13.22",
+    "karma-mocha": "^1.0.1",
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dfahlander/yieldreq.git"
+  },
+  "keywords": [
+    "IndexedDB",
+    "yield",
+    "generators",
+    "async",
+    "await"
+  ],
+  "author": "David Fahlander",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dfahlander/yieldreq/issues"
+  },
+  "homepage": "https://github.com/dfahlander/yieldreq#readme"
+}
