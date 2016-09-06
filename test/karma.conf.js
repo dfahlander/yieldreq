@@ -8,7 +8,7 @@ module.exports = function(config) {
         'karma-chrome-launcher'
     ],
     files: [
-      'https://npmcdn.com/chai@3.5.0/chai.js',
+      'https://unpkg.com/chai@3.5.0/chai.js',
       '*.js'
     ],
     colors: true,
